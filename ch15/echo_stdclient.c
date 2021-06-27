@@ -1,7 +1,7 @@
 /*
  * @Author: dylan
  * @Date: 2021-06-06 11:51:19
- * @LastEditTime: 2021-06-27 18:33:21
+ * @LastEditTime: 2021-06-27 18:36:28
  * @LastEditors: dylan
  * @Description: echo client using standard
  *               I/O function
@@ -21,14 +21,14 @@ void error_handling(char *message);
 
 int main(int argc, char *argv[])
 {
-    int serv_sock;
-    struct sockaddr_in serv_addr;
-    char message[BUF_SIZE];
-
     if (argc != 3) {
         printf("usage: %s <ip> <port>\n", argv[0]);
         exit(1);
     }
+
+    int serv_sock;
+    struct sockaddr_in serv_addr;
+    char message[BUF_SIZE];
 
     serv_sock = socket(PF_INET, SOCK_STREAM, 0);
 
