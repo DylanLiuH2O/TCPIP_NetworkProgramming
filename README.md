@@ -1,7 +1,7 @@
 <!--
  * @Author: dylan
  * @Date: 2021-06-27 17:59:55
- * @LastEditTime: 2021-06-27 18:05:23
+ * @LastEditTime: 2021-06-27 18:21:25
  * @LastEditors: dylan
  * @Description: 
  * @FilePath: /TCPIP_NetworkProgramming/README.md
@@ -9,6 +9,8 @@
 # TCPIP_NetworkProgramming
 
 本项目是学习《TCP/IP网络编程》耗时两周写的demo，所有程序都有基本的描述和注释，每个目录都有Makefile，make即可编译，方便运行测试。  
+
+若要单独生成某个文件的可执行程序，可以打开Makefile查看具体的目标名，然后执行`make 目标名`即可。  
 
 这本书可以算是Linux下网络编程最容易入门的书籍，看完并练习之后再进一步去看《Unix网络编程》和《Linux-UNIX系统编程手册》更佳。  
 
